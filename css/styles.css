@@ -1,0 +1,240 @@
+body {
+    margin: 0 auto;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ====== Nav Bar ===== */
+
+.navbar {
+    background-color: gray;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
+
+.logo {
+    height: 80px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.nav-list {
+    float: right;
+    list-style-type: none;
+}
+
+.nav-item{
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+    color: white;
+    background-color: black;
+    border: 1.5px solid white;
+    /*height: 30px;*/
+    /*width: 60px;*/
+    padding: 10px;
+    border-radius: 10px;
+} /* combine both nav-item and nav-item a so the whole button is a link instead of just the word */
+
+.nav-item a{
+    /*This is how you target the anchors of nav-item's.*/
+    text-decoration: none;
+    color: #fff;
+    /*padding: 10px;*/
+    /*border-radius: 10px;*/
+} 
+
+.nav-item:hover {
+    color: black; /* redundant code  */
+    background-color: white;
+    border: 1.5px solid black;
+    padding: 10px;
+    border-radius: 10px;
+} 
+.nav-item:hover a{
+    color: #fff;
+}
+
+.nav-item a:hover{
+    color: black;
+}
+
+/* ===== Banner ===== */
+
+.banner {
+    background-image: url('../img/banner-asana.png');
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    background-size: 100%;
+}    
+
+/*.banner-image {*/
+/*    width: 100vw;*/
+/*    height: 100vh;*/
+/*}*/
+
+.banner-text-background{
+    background-color: gray;
+    height: 100px;
+    width: 600px;
+    display: inline-block;
+    margin-top: 125px;
+    /*position: absolute;*/
+    box-shadow: 2px 2px #000;
+}
+
+.banner-text{
+    color: pink;
+    text-shadow: 2px 2px 0px #000;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    /*position: relative;*/
+    /*top: 50px;*/
+}
+
+/* ======= Main Body ====== */
+
+.container{
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+    /*margin: 0 auto;*/
+}
+
+.border{
+    border: 5px dashed #000;
+    height: 500px;
+    width: 46%;
+    margin-left: 50px;
+}
+
+.body-text{
+    width: 44%;
+    float: left;
+    text-align: justify;
+}
+
+.thin{
+    font-weight: 300;
+}
+
+.regular{
+    font-weight: 400;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.body-image{
+    width: 44%;
+    float: left;
+}
+
+.text{
+    margin: 10px;
+}
+
+.image {
+    margin: 0 auto;
+    height: 100%;
+}
+
+.footer{
+    background-color: blue;
+    height: 100px;
+    width: 100%;
+    clear: both;
+    margin-top: 100px;
+}
+
+.footer-col{
+    /*border: 1px dashed red;*/
+    height: 30px;
+    width: 32.5%;
+    display: inline-block; /*could use float here, but display also works*/
+    overflow: hidden;
+    margin-top: 42px;
+    text-align: center;
+}
+
+.input{
+
+}
+
+.social{
+    
+}
+
+.social-icon{
+    color: red;
+    height: 50px;
+    width: 50px;
+}
+
+.copyright{
+    
+}
+
+/* ======= About Page Styles ======= */
+
+.about-container{
+    height: 500px;
+    width: 100%;
+    margin-top: 120px;
+}
+
+.column{
+    display: inline-block;
+    width: 32%;
+    height: 500px;
+    border: 2px dashed gray;
+    vertical-align: top;
+    text-align: center;
+}
+
+.column-image{
+    width: 90%;
+}
+
+.about-header{
+    /*text-align: center;*/
+}
+
+.about-paragraph{
+    text-align: center;
+}
+
+/* ======= Contact Page Styles ======== */
+
+.contact-container{
+    height: 500px;
+    width: 100%;
+    margin-top: 120px;
+}    
+    
+.hotdog{
+    display: inline-block;
+    width: 49%;
+    height: 500px;
+    border: 2px dashed gray;
+    vertical-align: top;
+}
+
+.map{
+    margin: 0 auto;
+}
+
+.map h1 {
+    text-align: center;
+}
+
+.gmap{
+    margin: 0 auto;
+    width: 100%;
+}
